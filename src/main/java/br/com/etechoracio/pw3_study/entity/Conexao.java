@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 public class Conexao {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID_CONEXAO")
     private Long id;
 
