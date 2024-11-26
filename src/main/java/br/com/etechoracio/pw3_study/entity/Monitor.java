@@ -34,7 +34,7 @@ public class Monitor {
 
     @ManyToOne
     @JoinColumn(name = "ID_DISCIPLINA")
-    private Disciplina id;
+    private Disciplina disciplina;
 
     @ManyToMany
     @JoinTable(name = "TBL_REL_MONITOR_DISPONIBILIDADE",
